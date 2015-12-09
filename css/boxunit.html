@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>boxunit</title>
+    <style>
+
+    /*width: auto 는 나의 부모 만큼만 이며 추가로 들어오는 절대값을 인정하여
+    자동으로 사이즈 조절을 하겠다라는 뜻
+
+    height: auto 는 내가 가지고 있는 컨텐츠 만큼 자동으로 늘어나겠다 라는뜻
+
+    min-width: 는 최소 정해진 값이하 로는 줄지 않음
+    max-width: 는 쵀대 정해진 값이상은 늘어나지 않음*/
+
+    /*min-height : 최소 정해진 값 이하로는 줄지않음 컨텐츠양이 많아지면 정해진 값
+    이상이 될시에 height 값이 같이 늘어남
+    max-height : 컨텐츠양이 아무리 많이 늘어나더라도 , 정해진 값이상은 늘어나지않음*/
+
+        .unit{
+            border:1px #F00 solid;
+            width:auto;
+            max-width:1280px;
+            min-width:1000px;
+            height:auto;
+            }
+        .box{
+            border:1px #F00 solid;
+            height:auto
+            max-height:1280px;
+            min-height:1000px;
+            width:auto;
+            margin:50px;
+        }
+
+        .inner{
+            border:1px #F00 solid;
+            width:auto;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="unit">
+    <div class="box">
+    <div class="inner">
+    </div>
+
+    <div class="box">
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+    안녕하세여 <br />
+
+    </div>
+
+</body>
+</html>
