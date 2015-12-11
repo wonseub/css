@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    var imgHeight = $(".img img").width();
+    $(".img img").css("height", imgHeight);
+
+    var bgHeight = $(".bg a").width();
+    $(".bg a").css("height", bgHeight);
+
+});
+
+</script>
+<style>
+* {margin:0; padding:0;}
+ul{padding:0 2%; background:#ffa1b6; overflow:hidden; box-sizing:border-box;}
+li{float:left; width:30%; height:30%; margin:1.5%; list-style:none; box-sizing:border-box; border-radius:50%; overflow:hidden;}
+img{display:block; width:100%;}
+.bg{background:green;}
+.bg a{display:block; background:url('http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg') no-repeat; background-size:cover;}
+</style>
+</head>
+<body>
+ <ul class="img">
+  <li><a href="#"><img src="http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg"></a></li>
+  <li><a href="#"><img src="http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg"></a></li>
+  <li><a href="#"><img src="http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg"></a></li>
+  <li><a href="#"><img src="http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg"></a></li>
+  <li><a href="#"><img src="http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg"></a></li>
+  <li><a href="#"><img src="http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg"></a></li>
+  <li><a href="#"><img src="http://img.naver.net/static/www/mobile/edit/2015/1207/cropImg_138x82_49967015261275040.jpeg"></a></li>
+ </ul>
+ <ul class="bg">
+  <li><a href="#">bg</a></li>
+  <li><a href="#">bg</a></li>
+  <li><a href="#">bg</a></li>
+  <li><a href="#">bg</a></li>
+  <li><a href="#">bg</a></li>
+  <li><a href="#">bg</a></li>
+  <li><a href="#">bg</a></li>
+ </ul>
+
+</body>
+</html>
