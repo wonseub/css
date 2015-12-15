@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        /*
+            Clear 상위 요소중 float이 선언된 엘리먼트 요소의
+            공중에 뜸 현상에 영향을 받지 않는 상태
+            
+            both: 상위 플룻 요소중 height 값이 가장 긴 엘리먼트로 부터 시작
+            left : 플룻 left 가 선언된 요소중 height 값이 가장 큰 엘리먼트아래 부터 시작
+            right : 플룻 right가 선언된 요소중 height값이 가장 큰 엘리먼트 아래부터 시작
+        */
+        div{border:1px #F00 solid;}
+        .box1{
+            width:200px;
+            height:100px;
+            float:left;
+            margin-bottom:15px;
+            
+        }
+        .box2{
+            width:350px;
+            height:80px;
+            float:right;
+        }
+        .box3{
+            width:380px;
+            height:80px;
+            float:left;
+            margin-left:18px;
+        }
+        .clear{
+            height:50px;
+            width:1800px;
+            clear:both;
+        }
+        </style>
+</head>
+<body>
+        <div class="box1">logo</div>
+        <div class="box2">banner</div>
+        <div class="box3">banner1</div>
+        <div class="clear">menubar</div>
+    
+</body>
+</html>

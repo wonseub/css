@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style>
+        *{padding 0; margin:0;}
+        .wrap{ border:1px #F00 solid;
+                width: 900px;
+                height: 540px;
+                margin:0 auto;}
+        .top{
+            border:1px #F00 solid;
+            margin: 0 30px;
+        }
+        .top .logo{
+            float:left;
+        }
+        .top .banner{
+            float:right;
+        }
+        .top .button-list{
+            clear:left;
+        }
+        .top .button-list .button{
+            border:0 none;
+            text-indent:-9999px;
+            background-image: url('images/sp_nwstd.png');
+            cursor:pointer;
+            margin-left:2px;
+        }
+        .top .button-list .button:first-child{margin-left:0;}
+        
+        .top .button-list button .btn-1{
+            width: 66px;
+            background-position: -187px -199px;
+        }
+        .top .button-list button .btn-2{
+            width: 106px;
+            background-position: -293px -175px;
+        }
+        .top .button-list button .btn-3{
+            width: 28px;
+            background-position: -500px -269px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <h1 class="logo">
+                <a href="">
+                    <img src="images/logo.gif" alt="로고"/></a>
+            </h1>
+            <div class="banner">
+                <a href="">
+                <img src="images/banner.jpg" alt="배너"/></a>
+            </div>
+            
+            <div class="button-list">
+                <button class="btn-1">구독하기</button>
+                <button class="btn-2">구독자한마디</button>
+                <button class="btn-3">소셜보내기</button>
+                <span>12-14 16:00 편집</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
